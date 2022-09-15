@@ -72,7 +72,6 @@ for n in range(N):
         else:
             IdxMOD20.append(n + 1)
 res_num = 0
-# ソートできてなかったら実行
 res_num1, res1 = calcA(P, IdxMOD20, IdxMOD21)
 res_num2, res2 = calcB(N, P)
 print(res_num1 + res_num2)
